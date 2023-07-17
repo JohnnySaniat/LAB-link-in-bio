@@ -1,3 +1,44 @@
-body{
-  background-color: aquamarine;
+body {
+  background: linear-gradient(0.25turn, #df93e6, #ebf8e1, #df93e6);
+  background-size: 100%;
+  margin: auto;
+}
+
+.photo img {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  padding: 20px 20px;
+  margin-top: 30px;
+}
+
+.name {
+  font-family: fantasy;
+  font-size: 35px;
+  text-align: center;
+}
+
+.number {
+  font-family: fantasy;
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.container1 {
+  text-align: center;
+  padding: 30px 30px
+}
+
+#twitter img {
+  height:3000px
+}
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
